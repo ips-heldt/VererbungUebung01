@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Vererbung0.Fahrzeug" Collapsed="true">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstract\Fahrzeug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vererbung0.Landfahrzeug" Collapsed="true">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAABAAABAAAAAAAgAAAA=</HashCode>
+      <FileName>Abstract\Landfahrzeug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vererbung0.Luftfahrzeug" Collapsed="true">
+    <Position X="1.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAABAAAAAAAACAAAAAAAABAA=</HashCode>
+      <FileName>Abstract\Luftfahrzeug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vererbung0.Wasserfahrzeug" Collapsed="true">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAACAEAAAAAAAAAgA=</HashCode>
+      <FileName>Abstract\Wasserfahrzeug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vererbung0.DateiProvider">
+    <Position X="14" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAADAAAA=</HashCode>
+      <FileName>Provider\DateiProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vererbung0.BaseProvider" Collapsed="true">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAIAAAACAAAAACAAAA=</HashCode>
+      <FileName>BaseClasses\BaseProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vererbung0.BaseSerialisierer">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAIAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseClasses\BaseSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vererbung0.DataHandler">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQBEAAEAAAAAAAAgAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataHandler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Serialisierer" />
+      <Property Name="Provider" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Vererbung0.XmlSerialisierer" Collapsed="true">
+    <Position X="6.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serializer\XmlSerialisierer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vererbung0.SoapSerialisierer" Collapsed="true">
+    <Position X="8.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAAAAAAAAAAAAAAAAIAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serializer\SoapSerialisierer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vererbung0.BinarySerialisierer" Collapsed="true">
+    <Position X="10.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serializer\BinarySerialisierer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vererbung0.Model.Flugzeug" Collapsed="true">
+    <Position X="2.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAACAAAAAA=</HashCode>
+      <FileName>Model\Flugzeug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vererbung0.Model.Frachter" Collapsed="true">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAACAAAAgA=</HashCode>
+      <FileName>Model\Frachter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vererbung0.Model.Hubschrauber" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAABAAAAAAQAAAAAACAAAAAA=</HashCode>
+      <FileName>Model\Hubschrauber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Vererbung0.SerializerTyp" Collapsed="true">
+    <Position X="10" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseClasses\BaseSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
